@@ -1,13 +1,14 @@
 1. Problem Tanımı
-Amaç, önceden belirlenmiş bir hedef diziyi (örneğin, "GitHub") eşleştirecek bir çözüm bulmaktır. Algoritma, rastgele oluşturulan bir popülasyonla başlar ve nesil nesil evrimleşerek hedefe yaklaşır.
+Amaç, önceden belirlenmiş bir hedef diziyi (örneğin, "GitHub") eşleştirecek bir çözüm bulmaktır. Genetik Algoritma, rastgele başlatılarak çözüme gider (fitness değerlerine göre)
 
-2. Ana Özellikler
+2. Kavram
 Rastgele Başlangıç: Rastgele karakterlerden oluşan bir dizi popülasyonu üretilir.
 Fitness Değerlendirmesi: Her birey, hedef dizeye ne kadar yakın olduğuna göre değerlendirilir.
 Seçim: En uygun bireyler üreme için seçilir.
 Çaprazlama: İki ebeveyn birey, yeni çocuk bireyler oluşturmak için birleştirilir.
 Mutasyon: Çeşitliliği sağlamak için rastgele değişiklikler yapılır.
-3. Kod Bileşenleri
+
+4. Kod
 Genler: Dizeleri oluşturan karakterler.
 Kromozom: Aday çözüm (bir birey).
 Fitness Fonksiyonu: Bir bireyin hedefe ne kadar yakın olduğunu ölçer.
