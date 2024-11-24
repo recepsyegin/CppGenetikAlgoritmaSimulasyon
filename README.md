@@ -11,7 +11,6 @@ Seçim: En iyi bireyler bir sonraki nesil için seçilir.
 Çaprazlama: İki ebeveyn bireyden yeni bireyler oluşturulur.
 Mutasyon: Rastgele değişiklikler yapılarak çeşitlilik sağlanır.
 
-Proje Süreci
 Hedef Diziyi Belirleme: Çözüm bulunması gereken hedef dize tanımlanır.
 Başlangıç Popülasyonu Üretimi: Rastgele dizelerden oluşan başlangıç popülasyonu oluşturulur.
 Genetik İşlemler:
