@@ -2,7 +2,7 @@
 using namespace std;
 #define SUCCESS 0
 
-// Her nesil için popülasyon sayısı
+// Her nesil iÃ§in popÃ¼lasyon sayÃ½sÃ½
 #define POPULATION_SIZE 100
 
 // Genler
@@ -41,7 +41,7 @@ string create_genome()
 	return genom;
 }
 
-// Popülasyondaki her bir çözüm " individual " için class
+// PopÃ¼lasyondaki her bir Ã§Ã¶zÃ¼m " individual " iÃ§in class
 class Individual{
 	public:
 		string chromosome;
@@ -162,25 +162,6 @@ int main()
         cout << "Generation: " << generation << "\t";
         cout << "String: " << population[0].chromosome << "\t";
         cout << "Fitness: " << population[0].fitness << "\n";
-
+	
 	return SUCCESS;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
