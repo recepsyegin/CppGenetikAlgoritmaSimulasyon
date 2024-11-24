@@ -14,10 +14,11 @@ Kromozom: Aday çözüm (bir birey).
 Fitness Fonksiyonu: Bir bireyin hedefe ne kadar yakın olduğunu ölçer.
 Popülasyon: Bir grup kromozom (birey).
 Evrim Süreci: Algoritma, her nesilde popülasyonu iyileştirerek çalışır.
-Proje Akışı
-Hedef Diziyi Belirleyin: Çözülmek istenen hedef dizeyi kodda belirtin (örneğin, "hello").
-Başlangıç Popülasyonunu Üretin: Rastgele dizeler oluşturun.
-Tekrarlanan Süreç:
+KODUN AKIŞI
+Bulmanızı istediğiniz hedefi belirleyin ("Merhaba Genetik Algoritma ^^")
+Başlangıç Popülasyonunu Üretin: Hedef ile aynı boyutta rastgele diziler üretir
+
+While (!found) Süreci:
 Her bireyin uygunluk (fitness) değeri hesaplanır.
 Üreme için en uygun bireyleri seçilir.
 Çaprazlama ve mutasyon uygulayarak yeni bireyler üretilir
